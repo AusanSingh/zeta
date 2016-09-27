@@ -1,0 +1,15 @@
+{
+  "name": "zeta-assignment",
+  "version": "1.0.0",
+  "description": "Zeta job assignment twitter web app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ausan Singh",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2"
+  }
+}
