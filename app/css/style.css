@@ -117,11 +117,20 @@ img {
   margin: 10px auto; }
   .tweets-section .tweet-tab-row {
     display: flex;
-    margin: 20px 0;
-    padding: 15px; }
+    margin: 20px 0; }
     .tweets-section .tweet-tab-row .tweet-tab {
       flex: 1;
-      text-align: center; }
+      text-align: center;
+      position: relative;
+      padding: 15px 0; }
+      .tweets-section .tweet-tab-row .tweet-tab.active:after {
+        content: '';
+        height: 4px;
+        background: #80a8cc;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        bottom: 0; }
       .tweets-section .tweet-tab-row .tweet-tab h4 {
         font-weight: 300;
         color: #c6c1b0;
